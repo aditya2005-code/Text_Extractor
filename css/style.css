@@ -38,7 +38,7 @@ body {
   display: flex;
   flex: 1;
   gap: 20px;
-  align-items: stretch;  /* <-- makes both columns equal height */
+  align-items: stretch; 
 }
 
 .file-container,
