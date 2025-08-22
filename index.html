@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InscribeAI – Stylish and AI-powered</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- Intro Section -->
+      <div class="introduction-area">
+        <h1>Welcome to InscribeAI – Smart Text Extraction Made Easy</h1>
+        <p>
+          Quickly extract text from images, scanned documents, and PDFs. Perfect
+          for students, researchers, or professionals who need editable,
+          searchable text.
+        </p>
+      </div>
+
+      <!-- Main Extractor Section -->
+      <div class="extractor-container">
+        
+        <!-- Left: File Upload + Submit -->
+        <div class="file-container">
+          <div class="upload-area" id="uploadArea">
+            <p>📂 Drop files here or click below</p>
+            <input type="file" id="fileInput" hidden />
+            <button class="choose-btn" id="chooseBtn">Choose File</button>
+          </div>
+
+          <div class="submit-area">
+            <button class="start-btn" id="startBtn">Extract Text ➜</button>
+          </div>
+        </div>
+
+        <!-- Right: Extracted Text -->
+        <div class="extracted-text-container">
+          <textarea id="textOutput" placeholder="Extracted text will appear here..."></textarea>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
