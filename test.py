@@ -225,7 +225,7 @@ cv.imwrite("assets/image_with_border.jpg", image_with_border)
 
 file_path = "assets/image_with_border.jpg"
 img = Image.open(file_path)
-
+#printing result
 ocr_result = pt.image_to_string(img)
 print(ocr_result)
 
